@@ -25,7 +25,7 @@
       "ref": "origin/master",
       "repo": "https://github.com/cheneyweb/x-mgame.git",
       "path": "/usr/local/node/x-mgame",
-      "post-deploy": "cd server && git pull && npm install && pm2 startOrRestart ecosystem.json"
+      "post-deploy": "git pull && npm install && pm2 startOrRestart ecosystem.json"
     }
   }
 }
