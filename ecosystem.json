@@ -1,8 +1,8 @@
 {
   "apps": [
     {
-      "name": "darkcat",
-      "script": "app-darkcat.js",
+      "name": "speedcube",
+      "script": "app-speedcube.js",
       "node_args": [
       ],
       "instances": 1,
@@ -19,13 +19,13 @@
   ],
   "deploy": {
     "production": {
-      "key": "../../../xserver.pem",
+      "key": "../../xserver.pem",
       "user": "root",
       "host": "xserver.top",
       "ref": "origin/master",
-      "repo": "https://github.com/cheneyweb/laya-darkcat.git",
-      "path": "/usr/local/node/darkcat",
-      "post-deploy": "cd server && git pull && npm install && pm2 startOrRestart ecosystem.json --env production"
+      "repo": "https://github.com/cheneyweb/x-mgame.git",
+      "path": "/usr/local/node/x-mgame",
+      "post-deploy": "cd server && git pull && npm install && pm2 startOrRestart ecosystem.json"
     }
   }
 }
