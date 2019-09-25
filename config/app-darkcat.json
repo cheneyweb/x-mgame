@@ -1,0 +1,17 @@
+{
+    "server": {
+        "appPort": 3002,
+        "gamePort": 5000,
+        "controllerRoot": "/xserver",
+        "controllerDir": "/src-darkcat/controller/",
+        "mongodbUrl": "mongodb://localhost:27017/darkcat",
+        "mongoOption": {
+            "useUnifiedTopology": true
+        },
+        "defaultCreateAt": "createAt",
+        "defaultUTC": 8,
+        "defaultSortBy": "id",
+        "defaultSortOrder": -1,
+        "defaultLimit": 200
+    }
+}
