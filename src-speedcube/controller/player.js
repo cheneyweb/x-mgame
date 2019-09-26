@@ -50,7 +50,6 @@ router.post('/upload', async (ctx, next) => {
     const mongodb = global.mongodb
     const inparam = ctx.request.body
     delete inparam._id
-    console.log(inparam)
     await mongodb.collection('player').updateOne({ _id: ObjectId(token._id) }, { $set: inparam })
     ctx.body = { err: false }
 })
