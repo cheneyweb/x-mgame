@@ -12,10 +12,10 @@ const GiftMap = {}
 
 // 等级配置
 const LevelConfig = {
-    1: { expMax: 10, price: 50, goldInc: 2, goldIncMax: 1000, adGold: 500 },
-    2: { expMax: 30, price: 50, goldInc: 2, goldIncMax: 1000, adGold: 500 },
-    3: { expMax: 60, price: 50, goldInc: 2, goldIncMax: 1000, adGold: 500 },
-    4: { expMax: 100, price: 50, goldInc: 2, goldIncMax: 1000, adGold: 500 },
+    1: { expMax: 3, price: 5, goldInc: 2, goldIncMax: 1000, adGold: 500 },
+    2: { expMax: 5, price: 10, goldInc: 2, goldIncMax: 1000, adGold: 500 },
+    3: { expMax: 10, price: 20, goldInc: 2, goldIncMax: 1000, adGold: 500 },
+    4: { expMax: 20, price: 30, goldInc: 2, goldIncMax: 1000, adGold: 500 },
     5: { expMax: 200, price: 50, goldInc: 4, goldIncMax: 2000, adGold: 500 },
     6: { expMax: 400, price: 50, goldInc: 8, goldIncMax: 4000, adGold: 500 },
     7: { expMax: 800, price: 50, goldInc: 16, goldIncMax: 8000, adGold: 1000 },
